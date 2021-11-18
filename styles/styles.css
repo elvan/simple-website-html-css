@@ -16,3 +16,16 @@ header {
 header img {
   width: 300px;
 }
+
+main {
+  background-color: #005f73;
+  padding: 24px;
+  width: 800px;
+  margin: 24px auto;
+  border-radius: 8px;
+  color: #f4f3ee;
+}
+
+main a {
+  color: #e9d8a6;
+}
