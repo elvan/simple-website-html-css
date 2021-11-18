@@ -13,6 +13,10 @@ header {
   padding: 24px;
 }
 
+header h1 {
+  margin: 24px 0;
+}
+
 header img {
   width: 300px;
 }
@@ -26,6 +30,37 @@ main {
   color: #f4f3ee;
 }
 
-main a {
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #005f73;
+  background-color: #e9d8a6;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+a:hover,
+a:active {
+  background-color: #f4f3ee;
+}
+
+.extra-important {
+  color: #f6f4d2;
+  border-color: #e9d8a6;
+}
+
+.highlight {
+  font-weight: bold;
   color: #e9d8a6;
 }
